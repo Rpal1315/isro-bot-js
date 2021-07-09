@@ -63,4 +63,4 @@ client.on('guildMemberAdd', member => {
 	// Send the message, mentioning the member
 	channel.send(`Welcome to the server, ${member}`);
 });
-client.login('ODYyMjA5MDEwMjExMjI1NjQw.YOVAtw.3dYQWhjapN7piEhVGIlqmUnoJ94')
+client.login('token here')
