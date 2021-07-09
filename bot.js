@@ -6,7 +6,6 @@ const client = new Client();
 const today = new Date()
 // when the client is ready, run this code
 // this event will only trigger one time after logging in
-keepAlive()
 client.once('ready', () => {
 	console.log('Ready as ' + client.user.tag);
 	client.user.setPresence({
